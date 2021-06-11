@@ -69,7 +69,7 @@ public class Ejercicio6 {
     }
 
     /**
-     * Metodo que retorna el resultado de sumar 2 a cada uno de los elementos de la matriz original
+     * Metodo que retorna el resultado de multiplicar por 2 a cada uno de los elementos de la matriz original
      * @param matrizNueva
      * @return
      */
