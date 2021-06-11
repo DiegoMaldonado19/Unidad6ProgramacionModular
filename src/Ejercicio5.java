@@ -68,10 +68,10 @@ public class Ejercicio5{
      * Metodo hallar media, el cual permite hallar la media de las notas generadas, finalmente imprime el resultado
      */
     public void hallarMedia(){
-        for(int i=0; i<numeroDeNotas; i++){
+        for(int i=0; i<(numeroDeNotas-1); i++){
             sumatoriaNotas += notaIngresada[i];
         }
-        notaMedia = sumatoriaNotas/numeroDeNotas;
+        notaMedia = sumatoriaNotas/(numeroDeNotas-1);
         System.out.println("La nota media para las notas ingresadas es de: "+notaMedia);
     }
 }
