@@ -76,7 +76,7 @@ public class Ejercicio6 {
     public int[][] sumarMatriz(int[][] matrizNueva){
         for(int i=0; i<matrizOriginal.length; i++){
             for(int j=0; j<matrizOriginal.length; j++){
-                matrizNueva[i][j] += 1;
+                matrizNueva[i][j] *= 2;
             }
         }
         return matrizNueva;
